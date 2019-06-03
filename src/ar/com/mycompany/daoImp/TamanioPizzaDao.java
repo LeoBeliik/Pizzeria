@@ -8,7 +8,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
 import java.util.List;
-import javax.swing.JOptionPane;
 
 public class TamanioPizzaDao implements ITamanioPizzaDao {
     static SessionFactory sessionFactory = HibernateUtility.getSessionFactory();

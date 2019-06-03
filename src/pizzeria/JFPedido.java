@@ -70,8 +70,6 @@ public class JFPedido extends javax.swing.JFrame {
 
         this.jTable1.setModel(dt);
 
-        //jTable1.removeColumn(jTable1.getColumnModel().getColumn(6));
-        //jTable1.removeColumn(jTable1.getColumnModel().getColumn(5));
     }
 
     private void loadCombos() {
@@ -388,18 +386,7 @@ public class JFPedido extends javax.swing.JFrame {
         DetalleB = "";
         PedidosB = "";
         btnNuevoMouseClicked(null);
-        /*
-        txtCliente.setEditable(false);
-        txtCreacion.setEditable(false);
-        txtEntrega.setEditable(false);
-        txtNumero.setEditable(false);
-        cmbEstado.setEditable(false);
-        btnNewEstPed.setVisible(false);
-        btnNewPizza.setVisible(false);
-        cmbPizza.setEnabled(false);
-        txtPrecio.setEnabled(false);
-        txtCant.setEnabled(false);
-         */
+
     }//GEN-LAST:event_btnGuardarMouseClicked
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
